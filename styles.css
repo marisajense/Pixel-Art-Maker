@@ -6,7 +6,7 @@ body {
     -webkit-animation: rainbow 30s ease infinite;
     animation: rainbow 30s ease infinite;
     }
-    
+
     @-webkit-keyframes rainbow {
       0% { background-position: 0% 50% }
       50% { background-position: 100% 50% }
@@ -60,8 +60,12 @@ input[type=number] {
   border: 1px solid #fff;
   border-radius: 10px;
   padding: 20px;
-  margin-left: 450px;
-  margin-right: 450px;
+  display: block;
+  text-align: center;
+  margin: 0 auto !important;
+  height: 300px;
+  width: 800px;
+  text-align: center;
   background-color: rgba(255, 255, 255, 0.6);
   box-shadow: 10px 10px 22px 0px rgba(0,0,0,0.54);
 }
